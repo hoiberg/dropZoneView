@@ -2,7 +2,7 @@
 DropZoneView is a subclass of NSView, that will make it easier to implement a NSView as dragging destination, while keeping all the code in your NSViewController subclass. Especially if you want to accept files urls.
 
 ## How to use
-In interface builder, add a custom view and set its class to DropZoneView. Add a IBOutlet of this view to your NSViewController subclass.
+In interface builder, add a custom view and set its class to DropZoneView. Add a IBOutlet of this view to your NSViewController protocols.
 Here is an example on how to setup the DropZoneView:
 
     dropView.registerForFileExtensions(["bmp"]) // only accept .bmp files
